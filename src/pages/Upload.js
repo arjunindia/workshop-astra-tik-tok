@@ -5,8 +5,7 @@ import faker from "faker";
 const Upload = () => {
   const username = "letsgoo";
   const name = "Le Nameless";
-  const avatar =
-    "https://i.kym-cdn.com/photos/images/original/001/996/641/bc2.jpg";
+  const avatar = "https://i.kym-cdn.com/photos/images/original/001/996/641/bc2.jpg";
   const [video, setVideo] = useState(null);
   const [caption, setCaption] = useState(null);
   const today = new Date();
